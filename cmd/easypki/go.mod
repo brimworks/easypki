@@ -5,7 +5,6 @@ go 1.14
 require (
 	github.com/boltdb/bolt v1.3.1 // indirect
 	github.com/brimworks/easypki v1.1.1
-	github.com/google/easypki v1.1.0 // indirect
 	github.com/urfave/cli v1.22.4
 	golang.org/x/sys v0.0.0-20200821140526-fda516888d29 // indirect
 )
