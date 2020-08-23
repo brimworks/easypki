@@ -24,7 +24,7 @@ import (
 	"time"
 
 	"github.com/boltdb/bolt"
-	"github.com/google/easypki/pkg/store"
+	"github.com/brimworks/easypki/pkg/store"
 
 	"reflect"
 )

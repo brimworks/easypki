@@ -11,10 +11,10 @@ import (
 	"time"
 
 	"github.com/boltdb/bolt"
+	"github.com/brimworks/easypki/pkg/certificate"
+	"github.com/brimworks/easypki/pkg/easypki"
+	"github.com/brimworks/easypki/pkg/store"
 	"github.com/go-yaml/yaml"
-	"github.com/google/easypki/pkg/certificate"
-	"github.com/google/easypki/pkg/easypki"
-	"github.com/google/easypki/pkg/store"
 )
 
 func main() {
