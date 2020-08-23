@@ -2,6 +2,8 @@ module github.com/brimworks/easypki
 
 go 1.14
 
+replace github.com/brimworks/easypki => ./
+
 require (
 	github.com/boltdb/bolt v1.3.1
 	github.com/go-yaml/yaml v2.1.0+incompatible
