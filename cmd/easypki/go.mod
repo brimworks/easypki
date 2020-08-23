@@ -2,6 +2,8 @@ module github.com/brimworks/easypki/cmd/easypki
 
 go 1.14
 
+replace github.com/brimworks/easypki => ../..
+
 require (
 	github.com/boltdb/bolt v1.3.1 // indirect
 	github.com/brimworks/easypki v1.1.1
